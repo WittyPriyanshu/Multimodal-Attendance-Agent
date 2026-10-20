@@ -1,0 +1,21 @@
+# Secrets — never upload these
+
+.env
+.env.*
+!.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend
+
+node_modules/
+dist/
+
+# Logs
+
+*.log
